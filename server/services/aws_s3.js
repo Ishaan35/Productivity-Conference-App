@@ -13,9 +13,6 @@ const region = process.env.AWS_BUCKET_REGION_S3;
 //these keys are for the IAM user
 
 //DELETE THIS BEFORE PUSHING PROJECT!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-process.env.AWS_ACCESS_KEY_ID = "AKIAQ5VJJFTTX3K7IIKM";
-process.env.AWS_SECRET_ACCESS_KEY_ID =
-  "jRWutgoVpyfjUIg7NUmnYNqhLGOJOodvqiVA3via";
 
 const accessKeyId = process.env.AWS_ACCESS_KEY_ID;
 const secretAccessKey = process.env.AWS_SECRET_ACCESS_KEY_ID;
