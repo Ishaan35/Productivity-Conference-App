@@ -1,0 +1,21 @@
+.informationRow{
+    display: flex;
+    width: 50%;
+        flex-direction: column;
+}
+
+.informationList{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5px;
+}
+
+.informationRow img {
+    width: 40%;
+    height: 40%;
+}
+
+.informationRow canvas {
+    width: 40%;
+}

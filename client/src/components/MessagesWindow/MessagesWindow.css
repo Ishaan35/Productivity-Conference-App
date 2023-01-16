@@ -1,0 +1,109 @@
+.messagesWindow {
+    background: greenyellow;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    position: relative;
+    bottom: 0%;
+}
+
+.messagesColumn{
+    width: 90%;
+    height: 100%;
+    background-color: rgb(235, 236, 241);
+    position: relative;
+    overflow: hidden;
+
+}
+
+.receivedMessage{
+    background-color: white;
+    color: rgb(51, 8, 169);
+    padding: 5px;
+    width: 100px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+                border: 1px solid lightgray;
+}
+
+.sentMessage{
+    background-color: rgb(51, 8, 169);
+    color: white;
+    padding: 5px;
+    width: 100px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid lightgray;
+    float: right;
+}
+
+.deleteImageBtn{
+    top:0;
+    right:0;
+    position: absolute;
+    border: 1px solid rgb(255, 65, 65);
+    outline: none;
+    background-color: rgb(255, 113, 113);
+    pointer-events: all;
+}
+.deleteImageBtn :hover{
+    background-color: rgb(186, 9, 9);
+}
+
+.messagesContainer{
+    height: 92%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    overflow: auto;
+    flex-direction: column;
+    display: flex;
+    overflow-x: hidden;
+}
+.newMessageDiv{
+    position: absolute;
+    bottom: 10px;
+    height: 8%;
+    width: 100%;
+    display: flex;
+}
+.messageTextBox{
+    padding: 5px;
+    width: 50%;
+    max-height: 200%;
+    resize: none;
+}
+
+.messageSubmitBtn{
+    padding: 5px;
+    width: auto;
+    height: 50%;
+}
+
+.imageUpload{
+    background-color: rgb(221, 224, 234);
+    border: 1px solid gray;
+    padding: 5px;
+    height: 50%;
+    position: relative;
+    border-radius: 2px;
+    margin-left: 10px;
+
+}
+
+.imageUploadHover{
+    border: 1px solid gray;
+    padding: 5px;
+    height: 50%;
+    position: relative;
+    border-radius: 2px;
+    cursor: pointer;
+    background-color: rgb(102, 112, 232) !important;
+    margin-left: 10px;
+}

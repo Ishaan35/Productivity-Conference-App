@@ -1,0 +1,11 @@
+.bodyContainerDashboard{
+    display: flex;
+    width: 100vw;
+    height: 92vh;
+}
+
+.activeSectionOfApp{
+    width: 90vw;
+    height: 100%;
+    position: relative;
+}
